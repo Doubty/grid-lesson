@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 import varinha from '../../assets/images/varinha.svg';
 import pomo from '../../assets/images/pomo.svg';
-import chapeuSeletor from '../../assets/images/varinha.svg';
+import chapeuSeletor from '../../assets/images/chapeuSeletor.svg';
 import bolaCristal from '../../assets/images/bolaCristal.svg';
 import pedra from '../../assets/images/pedra.svg';
 import mapa from '../../assets/images/mapa.svg';
