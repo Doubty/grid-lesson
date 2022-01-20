@@ -25,6 +25,18 @@ function MainScreen() {
                 </nav>
             </header>
 
+            <nav className="sidenav">
+                <ul>
+                    <li><a rel="noreferrer" href="#varinha"><img src={varinha} alt="Varinha" /></a></li>
+                    <li><a rel="noreferrer" href="#pomo"><img src={pomo} alt="pomo" /></a></li>
+                    <li><a rel="noreferrer" href="#chapeuSeletor"><img src={chapeuSeletor} alt="chapeuSeletor" /></a></li>
+                    <li><a rel="noreferrer" href="#bolaCristal"><img src={bolaCristal} alt="bolaCristal" /></a></li>
+                    <li><a rel="noreferrer" href="#mapa"><img src={mapa} alt="mapa" /></a></li>
+                    <li><a rel="noreferrer" href="#pedra"><img src={pedra} alt="pedra" /></a></li>
+                </ul>
+            </nav>
+
+           
 
         </div>
     );
