@@ -98,6 +98,19 @@ img {
 .col-wide {
   grid-column: 1/-1;
 }
+
+.image-1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .content {
   grid-area: content;
   max-width: 900px;

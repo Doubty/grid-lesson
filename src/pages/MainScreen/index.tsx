@@ -9,6 +9,8 @@ import mapa from "../../assets/images/mapa.svg";
 import brasao from "../../assets/images/brasao.png";
 import sonserina from "../../assets/images/sonserina.png";
 import castelo from "../../assets/images/castelo.png";
+import image1 from "../../assets/images/image1.png";
+import image2 from "../../assets/images/image2.png";
 
 function MainScreen() {
   return (
@@ -97,7 +99,7 @@ function MainScreen() {
           ipsum ab!
         </p>
 
-        <img src={brasao} alt="brasao" />
+        <img className="image-1" src={image1} alt="brasao" />
 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
@@ -105,7 +107,7 @@ function MainScreen() {
           praesentium est ab aut numquam architecto amet, ut fuga porro quo
           eaque nam.
         </p>
-        <img src={sonserina} alt="brasao" />
+        <img className="image-2" src={image2} alt="sonserina" />
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo
