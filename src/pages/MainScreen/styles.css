@@ -111,6 +111,25 @@ p {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.informacoes p + p {
+  margin-top: 30px;
+}
+
+.titulo {
+  color: #d32f2e;
+}
+
+.titulo h1 {
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.titulo span {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
 .content {
   grid-area: content;
   max-width: 900px;
