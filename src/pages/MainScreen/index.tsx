@@ -156,7 +156,7 @@ function MainScreen() {
           </p>
         </div>
 
-        <img src={castelo} alt="castelo" />
+        <img className="image-3" src={castelo} alt="castelo" />
       </main>
 
       <aside className="anuncios">
