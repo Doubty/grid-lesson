@@ -108,7 +108,10 @@ function MainScreen() {
                 </div>
             </aside>
 
-         
+            <footer className="footer">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus quos numquam voluptates quae, corporis labore deleniti sapiente vel? Corporis amet labore consequuntur veniam similique impedit exercitationem repellat, repellendus explicabo!</p>
+
+            </footer>
 
         </div>
     );
