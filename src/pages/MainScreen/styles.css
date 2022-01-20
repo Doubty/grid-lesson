@@ -22,6 +22,7 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .estrutura {
@@ -74,16 +75,55 @@ img {
 
 .sidenav {
   grid-area: sidenav;
+  background: #fafbfc;
+  padding: 30px;
 }
 
+.sidenav li a {
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  margin: 0 auto 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  transition: 0.1s ease-out;
+}
+
+.sidenav li a:hover {
+  background-color: #d32f2e;
+}
+
+.col-wide {
+  grid-column: 1/-1;
+}
 .content {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 .anuncios {
   grid-area: anuncios;
+  display: grid;
+  background-color: #fafbfc;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
 }
 
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #af1e1e, #d32f2e);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
