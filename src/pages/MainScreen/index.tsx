@@ -99,7 +99,16 @@ function MainScreen() {
             </main>
 
 
-     
+            <aside className="anuncios">
+                <div className="anuncio-item">
+                    <img src={brasao} alt="" />
+                </div>
+                <div className="anuncio-item">
+                    <img src={sonserina} alt="" />
+                </div>
+            </aside>
+
+         
 
         </div>
     );
