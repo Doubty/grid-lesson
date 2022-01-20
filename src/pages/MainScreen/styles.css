@@ -130,6 +130,79 @@ p {
   font-style: italic;
 }
 
+.caracteristicas {
+  display: flex;
+  align-items: flex-start;
+}
+
+.caracteristicas > div {
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #af1e1e, #d32f2e);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+.caracteristicas > div:first-child {
+  margin-right: 30px;
+}
+
+.destaque {
+  font-size: 0.875em;
+  color: #d32f2e;
+  max-width: 16em;
+}
+
+.citacao,
+.atributos {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  background: linear-gradient(135deg, #af1e1e, #d32f2e);
+  color: white;
+}
+
+.citacao p {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.atributos li {
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+  border-bottom: 2px solid #d32f2e;
+}
+
+.atributos li + li {
+  border-top: 2px solid #d32f2e;
+}
+
+.numero {
+  color: #d32f2e;
+  font-size: 3em;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.rotulo {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
+.caracteristicas span {
+  display: block;
+}
+
 .content {
   grid-area: content;
   max-width: 900px;

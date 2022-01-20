@@ -83,12 +83,12 @@ function MainScreen() {
 
         <div className="caracteristicas">
           <div>
-            <span className="numero">72</span>
-            <span className="rotulo">Fogo</span>
+            <span className="numero">15</span>
+            <span className="rotulo">Idade</span>
           </div>
           <div>
-            <span className="numero">72</span>
-            <span className="rotulo">Raio</span>
+            <span className="numero">55</span>
+            <span className="rotulo">Peso</span>
           </div>
         </div>
 
@@ -101,7 +101,7 @@ function MainScreen() {
 
         <img className="image-1" src={image1} alt="brasao" />
 
-        <p>
+        <p className="destaque">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
           corrupti, accusamus eius deserunt laudantium magnam aliquam, earum
           praesentium est ab aut numquam architecto amet, ut fuga porro quo
@@ -122,7 +122,7 @@ function MainScreen() {
           doloremque, asperiores commodi rem alias? Fugiat?
         </p>
 
-        <blockquote className="col-wide">
+        <blockquote className="col-wide citacao">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
             pariatur illo obcaecati, ipsam perspiciatis tenetur repellat quidem
