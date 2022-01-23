@@ -14,7 +14,7 @@ Projeto foi desenvolvido como forma de estudo e exemplo
 - Grid
 - Entre outras
 
-O projeto pode ser visualizado no vercel, [clicando aqui](https://)
+O projeto pode ser visualizado no vercel, [clicando aqui](https://grid-lesson.vercel.app/)
 
 ## Instalação de dependências e inicialização do projeto localmente
 
